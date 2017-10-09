@@ -5,15 +5,19 @@
 
 body{
 	font-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url('http://degustator.net.ua/wp-content/uploads/2015/10/IehB7.png');
 }
 .container{
 	height: 50vh;
 	width: 50vh;
-	border-top: 20px solid skyblue;
-	border-right: 20px solid skyblue;
-	border-bottom:  70px solid skyblue;
-	border-left: 20px solid skyblue;
-	border-radius: 10px;
+	padding: 20px;
+	padding-bottom: 60px;
+	background: #2980b9;
+	border-radius: 20px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -26,6 +30,8 @@ body{
 	flex: 1 1 100%;
 	font-size: 3em;
 	text-align: right;
+	background: #95a5a6;
+	border: grey solid 1px;
 
 }
 #digits{

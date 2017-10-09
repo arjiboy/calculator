@@ -3,11 +3,13 @@
 <head>
 	<title>Calculator</title>
 	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class='container'>
 		<section id="screen">
-			<input id="input" type="text" size="7">
+			<input id="input" type="text" size="1">
 		</section>
 		<section id="digits">
 			<button class='num' value='7'>7</button>
@@ -29,8 +31,8 @@
 			<button class="operation" id="add">+</button>
 		</section>
 		<section id="utils">
-			<button>C</button>
-			<button>DEL</button>
+			<button id="clear">C</button>
+			<button id="delete">DEL</button>
 			<button id="eq">=</button>
 		</section>
 
